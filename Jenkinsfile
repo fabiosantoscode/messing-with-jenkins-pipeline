@@ -10,8 +10,7 @@ pipeline {
 
         stage('Build 2') {
             steps {
-                sh 'echo hi again, gonna fail'
-                sh 'false'
+                sh 'echo hi again'
             }
         }
 
